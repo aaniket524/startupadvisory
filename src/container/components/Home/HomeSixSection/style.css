@@ -1,0 +1,33 @@
+.h-logos{
+    /* background-color: bisque; */
+        padding: 60px 100px;
+
+}
+.h-logo-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px !important;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.h-logo-cont{
+   width: 14%;
+}
+.h-logo-cont img{
+    width: 100%;
+}
+.h-logo-button{
+    display: flex;
+    justify-content: center;
+}
+.h-logo-btn{
+   margin: 50px 0 0px 0;
+    color: #A37002;
+    font-family: "Inter", sans-serif;
+    text-transform: uppercase;
+    border: none;
+    padding: 10px 20px;
+    background: transparent;
+    font-weight: bold;
+}

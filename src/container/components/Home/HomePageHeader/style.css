@@ -1,0 +1,101 @@
+.homepageheader {
+    margin-top: 0px;
+    background-color: black;
+    color: white;
+    padding: 180px 10px;
+}
+
+.homepage-hpara {
+    margin: 0;
+    font-size: 18px;
+    text-align: center;
+}
+
+.homepageh-head {
+    text-align: center;
+    font-size: 75px;
+    padding: 20px 0px;
+    line-height: 80px;
+    padding-inline-start: 10%;
+    padding-inline-end: 10%;
+}
+
+.homepage-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.homepageh-btn {
+    background-color: #A37002;
+    border: 1px solid #A37002;
+    padding: 10px 30px;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-family: "Inter", sans-serif;
+    cursor: pointer;
+}
+
+/* Responsive Styles */
+
+/* Tablets */
+@media screen and (max-width: 1024px) {
+    .homepageheader {
+        padding: 140px 30px;
+    }
+
+    .homepageh-head {
+        font-size: 55px;
+        line-height: 65px;
+        padding-inline-start: 5%;
+        padding-inline-end: 5%;
+    }
+
+    .homepage-hpara {
+        font-size: 16px;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+    .homepageheader {
+        padding: 100px 20px;
+    }
+
+    .homepageh-head {
+        font-size: 36px;
+        line-height: 44px;
+        padding-inline: 0;
+    }
+
+    .homepage-hpara {
+        font-size: 15px;
+    }
+
+    .homepageh-btn {
+        padding: 12px 24px;
+        font-size: 12px;
+    }
+}
+
+/* Small Devices */
+@media screen and (max-width: 480px) {
+    .homepageheader {
+        padding: 180px 15px 80px 15px;
+    }
+
+    .homepageh-head {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .homepageh-btn {
+        font-size: 11px;
+        padding: 10px 20px;
+    }
+}

@@ -1,0 +1,140 @@
+.homefourthsection {
+    background-color: white;
+    padding: 120px 100px;
+}
+
+.homefourthsection-main {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    align-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.hfs-c1 {
+    width: 40%;
+}
+
+.hfs-head {
+    text-align: initial;
+    font-size: 46px;
+}
+
+.hfs-para {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    color: #575250;
+    font-weight: 400;
+    line-height: 25.4px;
+    margin-top: 30px;
+}
+
+.hfs-btn {
+    margin: 40px 0 20px 0;
+    color: #A37002;
+    font-family: "Inter", sans-serif;
+    text-transform: uppercase;
+    border: 1px solid #A37002;
+    padding: 10px 20px;
+    background: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.hfs-c2 {
+    width: 50%;
+}
+
+.hfs-ul li {
+    display: flex;
+    justify-content: initial;
+    flex-direction: row;
+    list-style: none;
+    padding-bottom: 20px;
+    color: #A37002;
+    font-size: 31px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    line-height: 44px;
+}
+
+.hfs-ul li:not(:last-child) {
+    border-bottom: 1px solid #ccccccce; 
+    padding-bottom: 20px;
+    margin-bottom: 20px; 
+}
+
+/* ----------- Responsive Styles ----------- */
+
+/* Tablets */
+@media screen and (max-width: 1024px) {
+    .homefourthsection {
+        padding: 100px 50px;
+    }
+
+    .hfs-c1, .hfs-c2 {
+        width: 100%;
+    }
+
+    .hfs-head {
+        font-size: 38px;
+    }
+
+    .hfs-ul li {
+        font-size: 26px;
+        line-height: 38px;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+    .homefourthsection {
+        padding: 80px 30px;
+    }
+
+    .hfs-head {
+        font-size: 32px;
+    }
+
+    .hfs-para {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .hfs-ul li {
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .hfs-btn {
+        padding: 10px 18px;
+        font-size: 13px;
+    }
+}
+
+/* Small Devices */
+@media screen and (max-width: 480px) {
+    .homefourthsection {
+        padding: 60px 20px;
+    }
+
+    .hfs-head {
+        font-size: 26px;
+    }
+
+    .hfs-para {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .hfs-ul li {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .hfs-btn {
+        font-size: 12px;
+        padding: 8px 16px;
+    }
+}

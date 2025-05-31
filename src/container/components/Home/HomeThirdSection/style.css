@@ -1,0 +1,121 @@
+.homethirdsection {
+  background: #EDEDED;
+  padding: 120px;
+}
+
+.homethirdsection-head {
+  text-align: center;
+  font-size: 46px;
+}
+
+.homethirdsection-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+  padding-top: 80px;
+}
+
+.hts-container {
+  background-color: white;
+  width: 40%;
+  padding: 30px;
+}
+
+.hts-numb {
+  color: #A37002;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  line-height: 25.4px;
+  margin-top: 20px;
+}
+
+.hts-para {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  color: #575250;
+  font-weight: 400;
+  line-height: 25.4px;
+  margin-top: 10px;
+}
+
+.hts-button {
+  margin: 40px 0 20px 0;
+  color: #A37002;
+  font-family: "Inter", sans-serif;
+  text-transform: uppercase;
+  border: 1px solid #A37002;
+  padding: 10px 20px;
+  background: white;
+  font-weight: bold;
+}
+
+/* -------- Responsive Breakpoints -------- */
+
+@media screen and (max-width: 1024px) {
+  .homethirdsection {
+    padding: 80px;
+  }
+
+  .hts-container {
+    width: 45%;
+    padding: 25px;
+  }
+
+  .homethirdsection-head {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .homethirdsection {
+    padding: 60px 30px;
+  }
+
+  .homethirdsection-main {
+    gap: 20px;
+  }
+
+  .hts-container {
+    width: 100%;
+    padding: 25px;
+  }
+
+  .homethirdsection-head {
+    font-size: 36px;
+  }
+
+  .hts-para {
+    font-size: 15px;
+    line-height: 24px;
+  }
+
+  .hts-button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .homethirdsection {
+    padding: 40px 20px;
+  }
+
+  .homethirdsection-head {
+    font-size: 30px;
+  }
+
+  .hts-para {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .hts-button {
+    font-size: 13px;
+    padding: 8px 14px;
+  }
+}

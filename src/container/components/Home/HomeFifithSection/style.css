@@ -1,0 +1,88 @@
+.hfifths {
+    background-color: #EDEDED;
+    padding: 100px 50px;
+}
+
+.hfiths-h {
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 36px;
+}
+
+.hfifth-main {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.hfifth-r {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.hfifth-container {
+    width: 30%;
+    min-width: 260px;
+    box-sizing: border-box;
+}
+
+.hfifth-sub {
+    text-align: center;
+    font-size: 20px;
+}
+
+.hfifth-para {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    color: #575250;
+    font-weight: 400;
+    line-height: 25.4px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.hfifth-icon {
+    display: block;
+    font-size: 40px;
+    color: #8B6400;
+    margin: 0 auto 10px auto;
+    text-align: center;
+}
+
+/* Tablet screens (<= 1024px) */
+@media (max-width: 1024px) {
+    .hfifth-container {
+        width: 45%;
+    }
+}
+
+/* Mobile screens (<= 768px) */
+@media (max-width: 768px) {
+    .hfifths {
+        padding: 60px 20px;
+    }
+
+    .hfiths-h {
+        font-size: 28px;
+    }
+
+    .hfifth-r {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hfifth-container {
+        width: 100%;
+    }
+
+    .hfifth-sub {
+        font-size: 18px;
+    }
+
+    .hfifth-para {
+        font-size: 15px;
+    }
+}

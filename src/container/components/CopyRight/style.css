@@ -1,0 +1,76 @@
+.copyright-container {
+    background-color: #f2f2f2;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    color: #333;
+    flex-wrap: wrap;
+}
+
+.left-text {
+    flex: 1;
+    font-family: "Inter", sans-serif;
+}
+
+.right-icons a {
+    margin-left: 15px;
+    color: #000; /* Keep original color */
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    transition: color 0.3s ease;
+    text-decoration: none;
+}
+
+/* Hover effect: add highlight color on hover */
+.right-icons a:hover {
+    color: #A37002; /* Consistent with other hover colors */
+}
+
+/* ✅ Responsive Design */
+
+/* Tablet view */
+@media (max-width: 1024px) {
+    .copyright-container {
+        padding: 25px 60px;
+        font-size: 12.5px;
+    }
+
+    .right-icons a {
+        font-size: 15px;
+    }
+}
+
+/* Mobile view */
+@media (max-width: 768px) {
+    .copyright-container {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        padding: 20px;
+        font-size: 12px;
+    }
+
+    .right-icons {
+        margin-top: 10px;
+    }
+
+    .right-icons a {
+        margin-left: 10px;
+        font-size: 14px;
+        color: #000; /* Ensure color stays the same */
+    }
+}
+
+/* Small phones */
+@media (max-width: 480px) {
+    .copyright-container {
+        padding: 15px;
+        font-size: 11.5px;
+    }
+
+    .right-icons a {
+        font-size: 13px;
+    }
+}

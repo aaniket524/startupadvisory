@@ -1,0 +1,124 @@
+.footer {
+    background-color: #f2f2f2;
+    padding: 50px 100px;
+    font-family: sans-serif;
+    border-bottom: 2px solid white;
+    color: #333;
+}
+
+.footer-main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.highlight a, .footer-column li a{
+    color: #333;
+    text-decoration: none;
+}
+.highlight a:hover,  .footer-column li a:hover{
+    color: #A37002;
+    text-decoration: none;
+}
+.footer-column {
+    flex: 1;
+    min-width: 250px;
+}
+
+.footer-column h4 {
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 8px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.footer-column p {
+    font-size: 14px;
+    margin: 10px 0;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    line-height: 1.5;
+}
+
+.highlight {
+    /* color: orange; */
+    /* color: #A37002; */
+}
+
+.footer-column ul li:hover {
+    color: #A37002;
+}
+
+/* ✅ Responsive Design Below */
+
+/* Tablets */
+@media (max-width: 1024px) {
+    .footer {
+        padding: 40px 60px;
+    }
+
+    .footer-main {
+        gap: 30px;
+    }
+
+    .footer-column h4 {
+        font-size: 18px;
+    }
+
+    .footer-column ul li,
+    .footer-column p {
+        font-size: 13px;
+    }
+}
+
+/* Mobile (Phones) */
+@media (max-width: 768px) {
+    .footer {
+        padding: 30px 20px;
+    }
+
+    .footer-main {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer-column {
+        width: 100%;
+    }
+
+    .footer-column h4 {
+        font-size: 16px;
+    }
+
+    .footer-column ul li,
+    .footer-column p {
+        font-size: 12.5px;
+    }
+}
+
+/* Extra small devices */
+@media (max-width: 480px) {
+    .footer {
+        padding: 25px 15px;
+    }
+
+    .footer-column h4 {
+        font-size: 15px;
+    }
+
+    .footer-column ul li,
+    .footer-column p {
+        font-size: 12px;
+    }
+}

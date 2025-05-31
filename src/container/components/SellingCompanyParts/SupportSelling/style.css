@@ -1,0 +1,125 @@
+.support-selling {
+    padding: 100px 100px;
+    background-color: #EDEDED;
+}
+
+.support-title {
+    text-align: center;
+    font-size: 45px;
+    padding-bottom: 50px;
+    font-weight: 600;
+    line-height: 62px;
+}
+
+.support-subtitle {
+    text-align: initial;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 44px;
+}
+
+.support-list li {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 15.7px;
+    line-height: 27px;
+    color: #575250;
+}
+
+.support-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.support-image,
+.support-text {
+    width: 45%;
+}
+
+.support-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.support-button {
+    margin: 30px 0 0;
+    color: #A37002;
+    font-family: "Inter", sans-serif;
+    text-transform: uppercase;
+    border: 1px solid #A37002;
+    padding: 10px 20px;
+    background: transparent;
+    font-weight: bold;
+}
+
+/* -------- Responsive Breakpoints -------- */
+
+@media screen and (max-width: 1024px) {
+    .support-selling {
+        padding: 80px 60px;
+    }
+
+    .support-title {
+        font-size: 38px;
+        line-height: 50px;
+    }
+
+    .support-subtitle {
+        font-size: 26px;
+        line-height: 38px;
+    }
+
+    .support-image,
+    .support-text {
+        width: 100%;
+    }
+
+    .support-content {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .support-selling {
+        padding: 60px 30px;
+    }
+
+    .support-title {
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+    .support-subtitle {
+        font-size: 24px;
+    }
+
+    .support-button {
+        font-size: 14px;
+        padding: 8px 18px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .support-title {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .support-subtitle {
+        font-size: 20px;
+    }
+
+    .support-list li {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .support-button {
+        width: 100%;
+        padding: 10px 0;
+    }
+}

@@ -1,0 +1,111 @@
+.process {
+  padding: 120px 100px;
+}
+
+.process-head {
+  text-align: center;
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 62px;
+  color: #A37002;
+}
+
+.process-subhead {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 10px;
+  color: #666;
+  font-family: "Inter", sans-serif;
+}
+
+.process-main {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.sprocess-container {
+  width: 30%;
+  min-width: 260px;
+  padding-bottom: 20px;
+}
+
+.sprocess-numb {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 15.4px;
+  line-height: 16px;
+  color: #A37002;
+  text-transform: uppercase;
+}
+
+.sprocess-title {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 35.8px;
+  color: #A37002;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.sprocess-para {
+  margin-top: 15px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 15.7px;
+  line-height: 27px;
+  color: #575250;
+}
+
+.process-btn-container {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.process-btn {
+  padding: 10px 25px;
+  background-color: #a86b00;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.process-btn:hover {
+  background-color: #8b5800;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .process {
+    padding: 100px 60px;
+  }
+
+  .sprocess-container {
+    width: 45%;
+  }
+}
+
+@media (max-width: 768px) {
+  .process {
+    padding: 80px 30px;
+  }
+
+  .sprocess-container {
+    width: 100%;
+  }
+
+  .process-head {
+    font-size: 32px;
+    line-height: 44px;
+  }
+
+  .process-subhead {
+    font-size: 16px;
+  }
+}

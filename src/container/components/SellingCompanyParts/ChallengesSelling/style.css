@@ -1,0 +1,87 @@
+.selling-challenges {
+  padding: 50px 50px 120px 50px;
+}
+
+.sc-title {
+  text-align: center;
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 62px;
+  font-family: "Inter", sans-serif;
+}
+
+.sc-main {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 40px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.sc-container {
+  width: 12%;
+  min-width: 180px;
+  max-width: 220px;
+  padding: 10px 20px;
+  background-color: #ededed;
+  height: 260px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+.sc-para {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  color: #575250;
+  font-weight: 400;
+  line-height: 25.4px;
+  margin-top: 30px;
+}
+
+/* Tablet view */
+@media (max-width: 1024px) {
+  .sc-title {
+    font-size: 36px;
+    line-height: 50px;
+  }
+
+  .sc-container {
+    width: 30%;
+    height: auto;
+    padding: 20px;
+  }
+
+  .sc-para {
+    font-size: 15px;
+    margin-top: 20px;
+  }
+}
+
+/* Mobile view */
+@media (max-width: 768px) {
+  .selling-challenges {
+    padding: 40px 20px 80px 20px;
+  }
+
+  .sc-title {
+    font-size: 28px;
+    line-height: 38px;
+  }
+
+  .sc-container {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding: 30px 15px;
+  }
+
+  .sc-para {
+    font-size: 14px;
+    margin-top: 15px;
+  }
+}
