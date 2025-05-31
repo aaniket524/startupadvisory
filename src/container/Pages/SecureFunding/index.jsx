@@ -6,6 +6,10 @@ import logo2 from '/src/assets/fi/logo2.jpg'
 import logo3 from '/src/assets/fi/logo3.jpg'
 import logo4 from '/src/assets/fi/logo4.jpg'
 import logo5 from '/src/assets/fi/logo5.jpg'
+import r4 from "/src/assets/fi/r4.png"
+import r3 from "/src/assets/fi/r3.png"
+import r2 from "/src/assets/fi/r2.png"
+import r1 from "/src/assets/fi/r1.png"
 
 import SupportSelling from '../../components/SellingCompanyParts/SupportSelling';
 import AllPageHeader from '../../components/AllPageHeader';
@@ -112,19 +116,19 @@ const resultsData = {
     title: "Results you will get",
     results: [
         {
-            image: "/src/assets/fi/r1.png",
+            image: r1,
             text: "Financial plan and investment teaser"
         },
         {
-            image: "/src/assets/fi/r2.png",
+            image: r2,
             text: "Business valuation and project management"
         },
         {
-            image: "/src/assets/fi/r3.png",
+            image: r3,
             text: "List of investors and negotiation support"
         },
         {
-            image: "/src/assets/fi/r4.png",
+            image: r4,
             text: "Coordination of legal consultants and auditor"
         }
     ]

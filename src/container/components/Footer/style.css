@@ -103,7 +103,7 @@
 
     .footer-column ul li,
     .footer-column p {
-        font-size: 12.5px;
+        font-size: 14px;
     }
 }
 
@@ -114,11 +114,11 @@
     }
 
     .footer-column h4 {
-        font-size: 15px;
+        font-size: 16px;
     }
 
     .footer-column ul li,
     .footer-column p {
-        font-size: 12px;
+        font-size: 14px;
     }
 }
