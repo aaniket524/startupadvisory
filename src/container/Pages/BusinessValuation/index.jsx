@@ -7,7 +7,7 @@ import logo3 from '/src/assets/bv/logo3.jpg'
 import logo4 from '/src/assets/bv/logo4.jpg'
 import logo5 from '/src/assets/bv/logo5.jpg'
 import r1 from "/src/assets/bv/r1.png"
-import r2 from "/src/assets/bv/2.png"
+import r2 from "/src/assets/bv/r2.png"
 import r3 from "/src/assets/bv/r3.png"
 import r4 from "/src/assets/bv/r4.png"
 
