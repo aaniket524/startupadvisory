@@ -6,7 +6,10 @@ import logo2 from '/src/assets/lc/logo2.jpg'
 import logo3 from '/src/assets/lc/logo3.jpg'
 import logo4 from '/src/assets/lc/logo4.jpg'
 import logo5 from '/src/assets/lc/logo5.jpg'
-
+import r1 from "/src/assets/lc/r1.png";
+import r2 from "/src/assets/lc/r2.png";
+import r3 from "/src/assets/lc/r3.png";
+import r4 from "/src/assets/lc/r4.png";
 import SupportSelling from '../../components/SellingCompanyParts/SupportSelling';
 import AllPageHeader from '../../components/AllPageHeader';
 import ChallengesSelling from '../../components/SellingCompanyParts/ChallengesSelling';
@@ -101,19 +104,19 @@ const resultsData = {
     title: "Results you will get",
     results: [
         {
-            image: "/src/assets/lc/r1.png",
+            image: r1,
             text: "Organisational analysis"
         },
         {
-            image: "/src/assets/lc/r2.png",
+            image: r2,
             text: "Leadership principles"
         },
         {
-            image: "/src/assets/lc/r3.png",
+            image: r3,
             text: "Roadmaps"
         },
         {
-            image: "/src/assets/lc/r4.png",
+            image: r4,
             text: "Communication plan"
         }
     ]

@@ -6,7 +6,10 @@ import logo2 from '/src/assets/pc/logo2.jpg'
 import logo3 from '/src/assets/pc/logo3.jpg'
 import logo4 from '/src/assets/pc/logo4.jpg'
 import logo5 from '/src/assets/pc/logo5.jpg'
-
+import r1 from "/src/assets/pc/r1.png"
+import r2 from "/src/assets/pc/r2.png"
+import r3 from "/src/assets/pc/r3.png"
+import r4 from "/src/assets/pc/r4.png"
 import SupportSelling from '../../components/SellingCompanyParts/SupportSelling';
 import AllPageHeader from '../../components/AllPageHeader';
 import ChallengesSelling from '../../components/SellingCompanyParts/ChallengesSelling';
@@ -98,19 +101,19 @@ const resultsData = {
     title: "Results you will get",
     results: [
         {
-            image: "/src/assets/pc/r1.png",
+            image: r1,
             text: "Development of HR instruments"
         },
         {
-            image: "/src/assets/pc/r2.png",
+            image: r2,
             text: "HR processes"
         },
         {
-            image: "/src/assets/pc/r3.png",
+            image: r3,
             text: "Role descriptions"
         },
         {
-            image: "/src/assets/pc/r4.png",
+            image: r4,
             text: "Development of HR performance indicators"
         }
     ]

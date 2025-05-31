@@ -6,7 +6,10 @@ import logo2 from '/src/assets/org/Org-Logo2.png'
 import logo3 from '/src/assets/org/Org-Logo3.jpg'
 import logo4 from '/src/assets/org/Org-Logo4.jpg'
 import logo5 from '/src/assets/org/Org-Logo5.png'
-
+import or1 from '/src/assets/org/or1.png'
+import or2 from '/src/assets/org/or2.png'
+import or3 from '/src/assets/org/or3.png'
+import or4 from '/src/assets/org/or4.png'
 import SupportSelling from '../../components/SellingCompanyParts/SupportSelling';
 import AllPageHeader from '../../components/AllPageHeader';
 import ChallengesSelling from '../../components/SellingCompanyParts/ChallengesSelling';
@@ -100,19 +103,19 @@ const resultsData = {
     title: "Results you will get",
     results: [
         {
-            image: "/src/assets/org/or1.png",
+            image: or1,
             text: "Qualitative organisational analysis"
         },
         {
-            image: "/src/assets/org/or2.png",
+            image: or2,
             text: "Roadmap of interventions"
         },
         {
-            image: "/src/assets/org/or3.png",
+            image: or3,
             text: "New organisational setup"
         },
         {
-            image: "/src/assets/org/or4.png",
+            image: or4,
             text: "Organizational models"
         }
     ]
