@@ -6,6 +6,11 @@ import logo2 from '/src/assets/gs/Logo2.jpg'
 import logo3 from '/src/assets/gs/Logo3.jpg'
 import logo4 from '/src/assets/gs/Logo4.jpg'
 import logo5 from '/src/assets/gs/Logo5.jpg'
+import img1 from "/src/assets/gs/img1.png"
+import img2 from "/src/assets/gs/img2.png"
+import img3 from "/src/assets/gs/img3.png"
+import img4 from "/src/assets/gs/img4.png"
+
 import logo6 from '/src/assets/gs/Logo6.jpg'
 import SupportSelling from '../../components/SellingCompanyParts/SupportSelling';
 import AllPageHeader from '../../components/AllPageHeader';
@@ -101,19 +106,19 @@ const resultsData = {
     title: "Results you will get",
     results: [
         {
-            image: "/src/assets/gs/img1.png",
+            image: img1,
             text: "Repositioning, services and target groups"
         },
         {
-            image: "/src/assets/gs/img2.png",
+            image: img2,
             text: "Revised goals"
         },
         {
-            image: "/src/assets/gs/img3.png",
+            image: img3,
             text: "Growth action plan"
         },
         {
-            image: "/src/assets/gs/img4.png",
+            image: img4,
             text: "Financial plan review"
         }
     ]

@@ -7,7 +7,10 @@ import logo3 from '/src/assets/bv/logo3.jpg'
 import logo4 from '/src/assets/bv/logo4.jpg'
 import logo5 from '/src/assets/bv/logo5.jpg'
 //mark as pending part
-
+import r1 from "/src/assets/bv/r1.png"
+import r2 from "/src/assets/bv/r2.png"
+import r3 from "/src/assets/bv/r3.png"
+import r4 from "/src/assets/bv/r4.png"
 import SupportSelling from '../../components/SellingCompanyParts/SupportSelling';
 import AllPageHeader from '../../components/AllPageHeader';
 import ChallengesSelling from '../../components/SellingCompanyParts/ChallengesSelling';
@@ -102,19 +105,19 @@ const resultsData = {
     title: "Results you will get",
     results: [
         {
-            image: "/src/assets/bv/r1.png",
+            image: r1,
             text: "Company Valuation report"
         },
         {
-            image: "/src/assets/bv/r2.png",
+            image: r2,
             text: "Business Valuation methods explained"
         },
         {
-            image: "/src/assets/bv/r3.png",
+            image: r3,
             text: "Benchmarking"
         },
         {
-            image: "/src/assets/bv/r4.png",
+            image: r4,
             text: "Feedback on financial planning"
         }
     ]

@@ -70,6 +70,7 @@ function App() {
    <Route path="/people-and-culture" element={<PeopleCulture/>}/>
    <Route path="/leadership-and-change" element={<LeaderShipChange/>}/>
    <Route path="/find-investors" element={<SecureFunding/>}/>
+   <Route path="/accelerators" element={<Accelerator/>}/>
 
    <Route path="/organization" element={<Organization/>}/>
    </Routes>

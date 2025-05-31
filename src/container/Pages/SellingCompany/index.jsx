@@ -5,7 +5,6 @@ import Process from '../../components/SellingCompanyParts/Process';
 import Results from '../../components/SellingCompanyParts/Results';
 import SupportSelling from '../../components/SellingCompanyParts/SupportSelling';
 import AllPageHeader from '../../components/AllPageHeader';
-import rs1 from '/src/assets/sc_result/rs1.png';
 import scimg from '/src/assets/supporselling/sc-img.jpg';
 import SellingLogo from '../../components/SellingCompanyParts/SellingLogo';
 import logo1 from '/src/assets/sslogo/sslogo1.jpg'
@@ -14,6 +13,10 @@ import logo3 from '/src/assets/sslogo/sslogo3.jpg'
 import logo4 from '/src/assets/sslogo/sslogo4.png'
 import logo5 from '/src/assets/sslogo/sslogo5.png'
 import logo6 from '/src/assets/sslogo/sslogo6.jpg'
+import r1 from "/src/assets/sc_result/rs1.png"
+import r2 from "/src/assets/sc_result/rs2.png"
+import r3 from "/src/assets/sc_result/rs3.png"
+import r4 from "/src/assets/sc_result/rs4.png"
 
 
 
@@ -107,19 +110,19 @@ const resultsData = {
     title: "Results you will get",
     results: [
         {
-            image: "/src/assets/sc_result/rs1.png",
+            image: r1,
             text: "Action and financial plans"
         },
         {
-            image: "/src/assets/sc_result/rs2.png",
+            image: r2,
             text: "Process definition with milestones"
         },
         {
-            image: "/src/assets/sc_result/rs3.png",
+            image: r3,
             text: "Sales documentation and Due Diligence preparation"
         },
         {
-            image: "/src/assets/sc_result/rs4.png",
+            image: r4,
             text: "Business valuation and negotiation support"
         }
     ]
